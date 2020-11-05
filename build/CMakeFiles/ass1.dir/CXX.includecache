@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moria/MainTrain.cpp
+iostream
+-
+anomaly_detection_util.h
+/home/moria/anomaly_detection_util.h
+
+/home/moria/anomaly_detection_util.cpp
+anomaly_detection_util.h
+/home/moria/anomaly_detection_util.h
+cmath
+-
+
+/home/moria/anomaly_detection_util.h
+

@@ -1,0 +1,1 @@
+/bin/g++-9  -g  -rdynamic CMakeFiles/ass1.dir/MainTrain.cpp.o CMakeFiles/ass1.dir/anomaly_detection_util.cpp.o  -o ass1 
