@@ -68,3 +68,55 @@ ls
 g++ MainTrain.cpp anomaly_detection_util.cpp
 ls
 ./a.out
+la
+ls
+cd build
+./ass1
+git remote add <Anomaly Detector> <https://github.com/Moria-Yefet/Anomaly-Detector-.git>
+git remote add Anomaly Detector https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git push --set-upstream origin master
+git status
+git add main.cpp
+git add MainTrain.cpp
+git remote
+git add Anomaly-Detector https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git push
+git remote add Anomaly Detector https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git push Anomaly Detector
+git push
+git push Anomaly-Detector
+git push --set-upstream Anomaly-Detector master
+git push
+git push https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git push --set-upstream https://github.com/Moria-Yefet/Anomaly-Detector-.git master
+git show-ref
+git push origin master
+git push
+git remote MainTrain.cpp https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git remote add MainTrain.cpp https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git remote add anomaly_detection_util.h https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git remote add anomaly_detection_util.cpp https://github.com/Moria-Yefet/Anomaly-Detector-.git
+git push Anomaly Detector
+git push MainTrain.cpp
+git push --set-upstream MainTrain.cpp master
+git commit -m origin master
+git commit -m first commit
+git commit -m "initial commit"
+git push origin master
+git init
+git add .
+git commit -m 'Initial Commit'
+git push -u origin master
+git init
+git add .
+git commit -m 'message'
+git push -u origin master
+git add .
+git commit -m 'message'
+git push -u origin master 
+" git commit -m 'message' "
+" git commit -m 'message
+
+
+cd
+git

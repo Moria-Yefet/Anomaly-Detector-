@@ -1,83 +1,59 @@
-2020-11-05T15:31:56.598Z [debug] [main] Safe constructing new CMakeTools instance
-2020-11-05T15:31:56.601Z [debug] [variant] Constructing VariantManager
-2020-11-05T15:31:56.605Z [debug] [main] Constructing new CMakeTools instance
-2020-11-05T15:31:56.606Z [debug] [main] Starting CMakeTools second-phase init
-2020-11-05T15:31:56.736Z [info] [variant] Loaded new set of variants
-2020-11-05T15:31:56.742Z [debug] [main] CMakeTools instance initialization complete.
-2020-11-05T15:31:56.746Z [debug] [kit] Reading kits file /home/moria/.local/share/CMakeTools/cmake-tools-kits.json
-2020-11-05T15:31:56.775Z [info] [kit] Successfully loaded 4 kits from /home/moria/.local/share/CMakeTools/cmake-tools-kits.json
-2020-11-05T15:31:56.780Z [debug] [kit] Not reading non-existent kits file: /home/moria/.vscode/cmake-kits.json
-2020-11-05T15:31:56.781Z [debug] [main] Injecting new Kit into CMake driver
-2020-11-05T15:31:56.904Z [debug] [extension] [3353] cmake.configure started
-2020-11-05T15:31:56.911Z [info] [main] Configuring folder: moria 
-2020-11-05T15:31:56.913Z [debug] [main] Saving open files before configure/build
-2020-11-05T15:31:57.432Z [debug] [main] Starting new CMake driver
-2020-11-05T15:31:57.434Z [debug] [main] Starting CMake driver
-2020-11-05T15:31:57.435Z [debug] [cmakefileapi-driver] Creating instance of CMakeFileApiDriver
-2020-11-05T15:31:57.444Z [debug] [driver] CMakeDriver Kit set to GCC 9.3.0
-2020-11-05T15:31:57.448Z [debug] [driver] Trying to detect generator supported by system
-2020-11-05T15:31:57.564Z [debug] [driver] Command version test return code -1
-2020-11-05T15:31:57.676Z [debug] [driver] Command version test return code -1
-2020-11-05T15:31:57.783Z [debug] [driver] Command version test return code 0
-2020-11-05T15:31:57.785Z [debug] [driver] Run _refreshExpansions
-2020-11-05T15:31:57.786Z [debug] [driver] Run _refreshExpansions cb
-2020-11-05T15:31:57.796Z [debug] [driver] Setting new variant , Disable optimizations - include debug information.
-2020-11-05T15:31:57.797Z [debug] [driver] Run _refreshExpansions
-2020-11-05T15:31:57.797Z [debug] [driver] Run _refreshExpansions cb
-2020-11-05T15:31:58.013Z [debug] [driver] Run _refreshExpansions
-2020-11-05T15:31:58.014Z [debug] [driver] Run _refreshExpansions cb
-2020-11-05T15:31:58.016Z [debug] [driver] Start configure 
-2020-11-05T15:31:58.017Z [debug] [driver] Runnnig pre-configure checks and steps
-2020-11-05T15:31:58.018Z [debug] [driver] No configuring: There is no /home/moria/CMakeLists.txt
-2020-11-05T15:32:10.042Z [debug] [extension] [2970] cmake.quickStart started
-2020-11-05T15:32:10.047Z [debug] [extension] [3353] cmake.configure finished (returned -2)
-2020-11-05T15:32:16.711Z [debug] [extension] [2970] cmake.quickStart finished (returned -1)
-2020-11-05T15:32:23.762Z [debug] [extension] [3345] cmake.configure started
-2020-11-05T15:32:23.769Z [info] [main] Configuring folder: moria 
-2020-11-05T15:32:23.769Z [debug] [main] Saving open files before configure/build
-2020-11-05T15:32:24.167Z [debug] [driver] Run _refreshExpansions
-2020-11-05T15:32:24.167Z [debug] [driver] Run _refreshExpansions cb
-2020-11-05T15:32:24.170Z [debug] [driver] Start configure 
-2020-11-05T15:32:24.170Z [debug] [driver] Runnnig pre-configure checks and steps
-2020-11-05T15:32:24.171Z [debug] [driver] No configuring: There is no /home/moria/CMakeLists.txt
-2020-11-05T15:32:25.680Z [debug] [extension] [6847] cmake.quickStart started
-2020-11-05T15:32:25.684Z [debug] [extension] [3345] cmake.configure finished (returned -2)
-2020-11-05T15:32:31.247Z [info] [main] Configuring folder: moria 
-2020-11-05T15:32:31.248Z [debug] [main] Saving open files before configure/build
-2020-11-05T15:32:31.862Z [debug] [driver] Run _refreshExpansions
-2020-11-05T15:32:31.863Z [debug] [driver] Run _refreshExpansions cb
-2020-11-05T15:32:31.866Z [debug] [driver] Start configure 
-2020-11-05T15:32:31.867Z [debug] [driver] Runnnig pre-configure checks and steps
-2020-11-05T15:32:31.870Z [debug] [driver] Using compilers in GCC 9.3.0 for configure
-2020-11-05T15:32:31.876Z [debug] [driver] Run _refreshExpansions
-2020-11-05T15:32:31.876Z [debug] [driver] Run _refreshExpansions cb
-2020-11-05T15:32:31.885Z [debug] [cmakefileapi-driver] Invoking CMake /usr/bin/cmake with arguments ["--no-warn-unused-cli","-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE","-DCMAKE_BUILD_TYPE:STRING=Debug","-DCMAKE_C_COMPILER:FILEPATH=/bin/gcc-9","-DCMAKE_CXX_COMPILER:FILEPATH=/bin/g++-9","-H/home/moria","-B/home/moria/build","-G","Unix Makefiles"]
-2020-11-05T15:32:31.888Z [info] [proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/bin/gcc-9 -DCMAKE_CXX_COMPILER:FILEPATH=/bin/g++-9 -H/home/moria -B/home/moria/build -G "Unix Makefiles"
-2020-11-05T15:32:32.133Z [info] [cmake] Not searching for unused variables given on the command line.
-2020-11-05T15:32:33.445Z [info] [cmake] -- The C compiler identification is GNU 9.3.0
-2020-11-05T15:32:34.316Z [info] [cmake] -- The CXX compiler identification is GNU 9.3.0
-2020-11-05T15:32:34.405Z [info] [cmake] -- Check for working C compiler: /bin/gcc-9
-2020-11-05T15:32:35.013Z [info] [cmake] -- Check for working C compiler: /bin/gcc-9 -- works
-2020-11-05T15:32:35.028Z [info] [cmake] -- Detecting C compiler ABI info
-2020-11-05T15:32:35.621Z [info] [cmake] -- Detecting C compiler ABI info - done
-2020-11-05T15:32:35.663Z [info] [cmake] -- Detecting C compile features
-2020-11-05T15:32:35.668Z [info] [cmake] -- Detecting C compile features - done
-2020-11-05T15:32:35.693Z [info] [cmake] -- Check for working CXX compiler: /bin/g++-9
-2020-11-05T15:32:36.336Z [info] [cmake] -- Check for working CXX compiler: /bin/g++-9 -- works
-2020-11-05T15:32:36.342Z [info] [cmake] -- Detecting CXX compiler ABI info
-2020-11-05T15:32:36.974Z [info] [cmake] -- Detecting CXX compiler ABI info - done
-2020-11-05T15:32:37.029Z [info] [cmake] -- Detecting CXX compile features
-2020-11-05T15:32:37.033Z [info] [cmake] -- Detecting CXX compile features - done
-2020-11-05T15:32:37.291Z [info] [cmake] -- Configuring done
-2020-11-05T15:32:37.746Z [info] [cmake] -- Generating done
-2020-11-05T15:32:38.308Z [info] [cmake] -- Build files have been written to: /home/moria/build
-2020-11-05T15:32:38.317Z [debug] [cmakefileapi-parser] Read reply folder: /home/moria/build/.cmake/api/v1/reply
-2020-11-05T15:32:38.323Z [debug] [cmakefileapi-parser] Found index files: ["cache-v2-ad5b2a12c133d0362a09.json","codemodel-v2-a49242cd662e1216045a.json","index-2020-11-05T15-32-38-0242.json","target-Continuous-Debug-ccb7ffa9978a17909427.json","target-ContinuousBuild-Debug-fbe5c6f13f9d0b0fda7f.json","target-ContinuousConfigure-Debug-e50d85f92dff45137d08.json","target-ContinuousCoverage-Debug-8e77c9844717b5d78f1d.json","target-ContinuousMemCheck-Debug-6dc397776ac62b583443.json","target-ContinuousStart-Debug-e5333a93d322bdca7e2c.json","target-ContinuousSubmit-Debug-4fa6b21fb7b292361882.json","target-ContinuousTest-Debug-568a9c9a705921553383.json","target-ContinuousUpdate-Debug-64371bec26c652a83b2a.json","target-Experimental-Debug-9dd5df03d773a90f3c92.json","target-ExperimentalBuild-Debug-73bb360ec85e77324b07.json","target-ExperimentalConfigure-Debug-16d715fabac2df4f738b.json","target-ExperimentalCoverage-Debug-84b4a72b86a74a7b0c74.json","target-ExperimentalMemCheck-Debug-e2a5c5b061800616824e.json","target-ExperimentalStart-Debug-7113052b00f034005848.json","target-ExperimentalSubmit-Debug-5845b4f637743a5446be.json","target-ExperimentalTest-Debug-46e37abeefe8d5146a50.json","target-ExperimentalUpdate-Debug-88df2b117e6a7cd48b33.json","target-Nightly-Debug-cea50abb2f464ca0229a.json","target-NightlyBuild-Debug-afccd0465e4b8c1e2d87.json","target-NightlyConfigure-Debug-7ec533b122c4c2965696.json","target-NightlyCoverage-Debug-e2b20065ab4aa5f75d86.json","target-NightlyMemCheck-Debug-8eda9eba68978ec4ed5b.json","target-NightlyMemoryCheck-Debug-784f4a2876bbb9b4bcea.json","target-NightlyStart-Debug-87062bf9eaacc239a2bf.json","target-NightlySubmit-Debug-00614dd8d283eaa542b9.json","target-NightlyTest-Debug-b8d330abdb63439bfe9e.json","target-NightlyUpdate-Debug-b681408b94dc782d2255.json","target-ass1-Debug-6f6bff1b29bb84ea7841.json"]
-2020-11-05T15:32:38.630Z [debug] [cache] Reading CMake cache file /home/moria/build/CMakeCache.txt
-2020-11-05T15:32:38.639Z [debug] [cache] Parsing CMake cache string
-2020-11-05T15:32:39.292Z [debug] [extension] [6847] cmake.quickStart finished (returned 0)
-2020-11-05T15:34:39.073Z [debug] [extension] [2962] cmake.build started
-2020-11-05T15:34:39.079Z [info] [main] Building folder: moria 
+2020-11-05T17:03:40.462Z [debug] [main] Safe constructing new CMakeTools instance
+2020-11-05T17:03:40.464Z [debug] [variant] Constructing VariantManager
+2020-11-05T17:03:40.466Z [debug] [main] Constructing new CMakeTools instance
+2020-11-05T17:03:40.467Z [debug] [main] Starting CMakeTools second-phase init
+2020-11-05T17:03:40.959Z [info] [variant] Loaded new set of variants
+2020-11-05T17:03:40.965Z [debug] [main] CMakeTools instance initialization complete.
+2020-11-05T17:03:41.121Z [debug] [kit] Reading kits file /home/moria/.local/share/CMakeTools/cmake-tools-kits.json
+2020-11-05T17:03:42.065Z [info] [kit] Successfully loaded 4 kits from /home/moria/.local/share/CMakeTools/cmake-tools-kits.json
+2020-11-05T17:03:42.112Z [debug] [kit] Not reading non-existent kits file: /home/moria/.vscode/cmake-kits.json
+2020-11-05T17:03:42.114Z [debug] [main] Injecting new Kit into CMake driver
+2020-11-05T17:03:49.779Z [debug] [extension] Configuring workspace on open file:///home/moria
+2020-11-05T17:03:49.782Z [info] [main] Configuring folder: moria 
+2020-11-05T17:03:49.784Z [debug] [main] Saving open files before configure/build
+2020-11-05T17:03:50.062Z [debug] [main] Starting new CMake driver
+2020-11-05T17:03:50.064Z [debug] [main] Starting CMake driver
+2020-11-05T17:03:50.065Z [debug] [cmakefileapi-driver] Creating instance of CMakeFileApiDriver
+2020-11-05T17:03:50.069Z [debug] [driver] CMakeDriver Kit set to GCC 9.3.0
+2020-11-05T17:03:50.071Z [debug] [driver] Trying to detect generator supported by system
+2020-11-05T17:03:50.133Z [debug] [driver] Command version test return code -1
+2020-11-05T17:03:50.200Z [debug] [driver] Command version test return code -1
+2020-11-05T17:03:50.269Z [debug] [driver] Command version test return code 0
+2020-11-05T17:03:50.270Z [debug] [driver] Run _refreshExpansions
+2020-11-05T17:03:50.271Z [debug] [driver] Run _refreshExpansions cb
+2020-11-05T17:03:50.275Z [debug] [cache] Reading CMake cache file /home/moria/build/CMakeCache.txt
+2020-11-05T17:03:50.277Z [debug] [cache] Parsing CMake cache string
+2020-11-05T17:03:50.344Z [debug] [cache] Reading CMake cache file /home/moria/build/CMakeCache.txt
+2020-11-05T17:03:50.346Z [debug] [cache] Parsing CMake cache string
+2020-11-05T17:03:50.387Z [debug] [cmakefileapi-parser] Read reply folder: /home/moria/build/.cmake/api/v1/reply
+2020-11-05T17:03:50.436Z [debug] [cmakefileapi-parser] Found index files: ["cache-v2-ad5b2a12c133d0362a09.json","codemodel-v2-29b93edd2c6bf9176ab9.json","index-2020-11-05T15-34-41-0360.json","target-Continuous-Debug-ccb7ffa9978a17909427.json","target-ContinuousBuild-Debug-fbe5c6f13f9d0b0fda7f.json","target-ContinuousConfigure-Debug-e50d85f92dff45137d08.json","target-ContinuousCoverage-Debug-8e77c9844717b5d78f1d.json","target-ContinuousMemCheck-Debug-6dc397776ac62b583443.json","target-ContinuousStart-Debug-e5333a93d322bdca7e2c.json","target-ContinuousSubmit-Debug-4fa6b21fb7b292361882.json","target-ContinuousTest-Debug-568a9c9a705921553383.json","target-ContinuousUpdate-Debug-64371bec26c652a83b2a.json","target-Experimental-Debug-9dd5df03d773a90f3c92.json","target-ExperimentalBuild-Debug-73bb360ec85e77324b07.json","target-ExperimentalConfigure-Debug-16d715fabac2df4f738b.json","target-ExperimentalCoverage-Debug-84b4a72b86a74a7b0c74.json","target-ExperimentalMemCheck-Debug-e2a5c5b061800616824e.json","target-ExperimentalStart-Debug-7113052b00f034005848.json","target-ExperimentalSubmit-Debug-5845b4f637743a5446be.json","target-ExperimentalTest-Debug-46e37abeefe8d5146a50.json","target-ExperimentalUpdate-Debug-88df2b117e6a7cd48b33.json","target-Nightly-Debug-cea50abb2f464ca0229a.json","target-NightlyBuild-Debug-afccd0465e4b8c1e2d87.json","target-NightlyConfigure-Debug-7ec533b122c4c2965696.json","target-NightlyCoverage-Debug-e2b20065ab4aa5f75d86.json","target-NightlyMemCheck-Debug-8eda9eba68978ec4ed5b.json","target-NightlyMemoryCheck-Debug-784f4a2876bbb9b4bcea.json","target-NightlyStart-Debug-87062bf9eaacc239a2bf.json","target-NightlySubmit-Debug-00614dd8d283eaa542b9.json","target-NightlyTest-Debug-b8d330abdb63439bfe9e.json","target-NightlyUpdate-Debug-b681408b94dc782d2255.json","target-ass1-Debug-145b6348f86f83e35603.json"]
+2020-11-05T17:03:50.489Z [debug] [driver] Setting new variant , Disable optimizations - include debug information.
+2020-11-05T17:03:50.490Z [debug] [driver] Run _refreshExpansions
+2020-11-05T17:03:50.491Z [debug] [driver] Run _refreshExpansions cb
+2020-11-05T17:03:51.033Z [debug] [driver] Run _refreshExpansions
+2020-11-05T17:03:51.033Z [debug] [driver] Run _refreshExpansions cb
+2020-11-05T17:03:51.035Z [debug] [driver] Start configure 
+2020-11-05T17:03:51.036Z [debug] [driver] Runnnig pre-configure checks and steps
+2020-11-05T17:03:51.041Z [debug] [driver] Using compilers in GCC 9.3.0 for configure
+2020-11-05T17:03:51.046Z [debug] [driver] Run _refreshExpansions
+2020-11-05T17:03:51.047Z [debug] [driver] Run _refreshExpansions cb
+2020-11-05T17:03:51.559Z [debug] [cmakefileapi-driver] Invoking CMake /usr/bin/cmake with arguments ["--no-warn-unused-cli","-DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE","-DCMAKE_BUILD_TYPE:STRING=Debug","-DCMAKE_C_COMPILER:FILEPATH=/bin/gcc-9","-DCMAKE_CXX_COMPILER:FILEPATH=/bin/g++-9","-H/home/moria","-B/home/moria/build","-G","Unix Makefiles"]
+2020-11-05T17:03:51.561Z [info] [proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/bin/gcc-9 -DCMAKE_CXX_COMPILER:FILEPATH=/bin/g++-9 -H/home/moria -B/home/moria/build -G "Unix Makefiles"
+2020-11-05T17:03:51.911Z [info] [cmake] Not searching for unused variables given on the command line.
+2020-11-05T17:03:51.913Z [info] [cmake] -- Configuring done
+2020-11-05T17:03:52.214Z [info] [cmake] -- Generating done
+2020-11-05T17:03:52.429Z [info] [cmake] -- Build files have been written to: /home/moria/build
+2020-11-05T17:03:52.438Z [debug] [cmakefileapi-parser] Read reply folder: /home/moria/build/.cmake/api/v1/reply
+2020-11-05T17:03:52.439Z [debug] [cmakefileapi-parser] Found index files: ["cache-v2-ad5b2a12c133d0362a09.json","codemodel-v2-29b93edd2c6bf9176ab9.json","index-2020-11-05T17-03-52-0423.json","target-Continuous-Debug-ccb7ffa9978a17909427.json","target-ContinuousBuild-Debug-fbe5c6f13f9d0b0fda7f.json","target-ContinuousConfigure-Debug-e50d85f92dff45137d08.json","target-ContinuousCoverage-Debug-8e77c9844717b5d78f1d.json","target-ContinuousMemCheck-Debug-6dc397776ac62b583443.json","target-ContinuousStart-Debug-e5333a93d322bdca7e2c.json","target-ContinuousSubmit-Debug-4fa6b21fb7b292361882.json","target-ContinuousTest-Debug-568a9c9a705921553383.json","target-ContinuousUpdate-Debug-64371bec26c652a83b2a.json","target-Experimental-Debug-9dd5df03d773a90f3c92.json","target-ExperimentalBuild-Debug-73bb360ec85e77324b07.json","target-ExperimentalConfigure-Debug-16d715fabac2df4f738b.json","target-ExperimentalCoverage-Debug-84b4a72b86a74a7b0c74.json","target-ExperimentalMemCheck-Debug-e2a5c5b061800616824e.json","target-ExperimentalStart-Debug-7113052b00f034005848.json","target-ExperimentalSubmit-Debug-5845b4f637743a5446be.json","target-ExperimentalTest-Debug-46e37abeefe8d5146a50.json","target-ExperimentalUpdate-Debug-88df2b117e6a7cd48b33.json","target-Nightly-Debug-cea50abb2f464ca0229a.json","target-NightlyBuild-Debug-afccd0465e4b8c1e2d87.json","target-NightlyConfigure-Debug-7ec533b122c4c2965696.json","target-NightlyCoverage-Debug-e2b20065ab4aa5f75d86.json","target-NightlyMemCheck-Debug-8eda9eba68978ec4ed5b.json","target-NightlyMemoryCheck-Debug-784f4a2876bbb9b4bcea.json","target-NightlyStart-Debug-87062bf9eaacc239a2bf.json","target-NightlySubmit-Debug-00614dd8d283eaa542b9.json","target-NightlyTest-Debug-b8d330abdb63439bfe9e.json","target-NightlyUpdate-Debug-b681408b94dc782d2255.json","target-ass1-Debug-145b6348f86f83e35603.json"]
+2020-11-05T17:03:52.596Z [debug] [cache] Reading CMake cache file /home/moria/build/CMakeCache.txt
+2020-11-05T17:03:52.600Z [debug] [cache] Parsing CMake cache string
+2020-11-05T17:03:53.165Z [debug] [cache] Reading CMake cache file /home/moria/build/CMakeCache.txt
+2020-11-05T17:03:53.173Z [debug] [cache] Parsing CMake cache string
+2020-11-05T17:20:41.709Z [debug] [extension] [4726] cmake.setDefaultTarget started
+2020-11-05T17:20:42.804Z [debug] [extension] [4726] cmake.setDefaultTarget finished (returned undefined)
+2020-11-05T17:20:42.931Z [debug] [extension] [5414] cmake.setDefaultTarget started
+2020-11-05T17:20:53.710Z [debug] [extension] [5414] cmake.setDefaultTarget finished (returned undefined)
+-11-05T15:34:39.079Z [info] [main] Building folder: moria 
 2020-11-05T15:34:39.246Z [debug] [main] Saving open files before configure/build
 2020-11-05T15:34:39.723Z [debug] [main] Detected saving of CMakeLists.txt, attempting automatic reconfigure...
 2020-11-05T15:34:39.727Z [info] [main] Configuring folder: moria 
@@ -123,7 +99,13 @@
 2020-11-05T15:39:39.963Z [debug] [kitsController] Opening kit selection QuickPick
 2020-11-05T15:39:40.992Z [debug] [kitsController] User cancelled Kit selection
 2020-11-05T15:39:40.995Z [debug] [extension] [4201] cmake.selectKit finished (returned false)
-f.json","target-ContinuousConfigure-Debug-e50d85f92dff45137d08.json","target-ContinuousCoverage-Debug-8e77c9844717b5d78f1d.json","target-ContinuousMemCheck-Debug-6dc397776ac62b583443.json","target-ContinuousStart-Debug-e5333a93d322bdca7e2c.json","target-ContinuousSubmit-Debug-4fa6b21fb7b292361882.json","target-ContinuousTest-Debug-568a9c9a705921553383.json","target-ContinuousUpdate-Debug-64371bec26c652a83b2a.json","target-Experimental-Debug-9dd5df03d773a90f3c92.json","target-ExperimentalBuild-Debug-73bb360ec85e77324b07.json","target-ExperimentalConfigure-Debug-16d715fabac2df4f738b.json","target-ExperimentalCoverage-Debug-84b4a72b86a74a7b0c74.json","target-ExperimentalMemCheck-Debug-e2a5c5b061800616824e.json","target-ExperimentalStart-Debug-7113052b00f034005848.json","target-ExperimentalSubmit-Debug-5845b4f637743a5446be.json","target-ExperimentalTest-Debug-46e37abeefe8d5146a50.json","target-ExperimentalUpdate-Debug-88df2b117e6a7cd48b33.json","target-Nightly-Debug-cea50abb2f464ca0229a.json","target-NightlyBuild-Debug-afccd0465e4b8c1e2d87.json","target-NightlyConfigure-Debug-7ec533b122c4c2965696.json","target-NightlyCoverage-Debug-e2b20065ab4aa5f75d86.json","target-NightlyMemCheck-Debug-8eda9eba68978ec4ed5b.json","target-NightlyMemoryCheck-Debug-784f4a2876bbb9b4bcea.json","target-NightlyStart-Debug-87062bf9eaacc239a2bf.json","target-NightlySubmit-Debug-00614dd8d283eaa542b9.json","target-NightlyTest-Debug-b8d330abdb63439bfe9e.json","target-NightlyUpdate-Debug-b681408b94dc782d2255.json","target-ass1-Debug-145b6348f86f83e35603.json"]
+2020-11-05T16:46:38.427Z [debug] [extension] [4941] cmake.selectKit started
+2020-11-05T16:46:38.431Z [debug] [kitsController] Start selection of kits. Found 6 kits.
+2020-11-05T16:46:38.432Z [debug] [kitsController] Opening kit selection QuickPick
+2020-11-05T16:46:40.350Z [debug] [kitsController] User cancelled Kit selection
+2020-11-05T16:46:40.352Z [debug] [extension] [4941] cmake.selectKit finished (returned false)
+2020-11-05T17:03:29.958Z [debug] [extension] Deactivate CMakeTools
+entalBuild-Debug-73bb360ec85e77324b07.json","target-ExperimentalConfigure-Debug-16d715fabac2df4f738b.json","target-ExperimentalCoverage-Debug-84b4a72b86a74a7b0c74.json","target-ExperimentalMemCheck-Debug-e2a5c5b061800616824e.json","target-ExperimentalStart-Debug-7113052b00f034005848.json","target-ExperimentalSubmit-Debug-5845b4f637743a5446be.json","target-ExperimentalTest-Debug-46e37abeefe8d5146a50.json","target-ExperimentalUpdate-Debug-88df2b117e6a7cd48b33.json","target-Nightly-Debug-cea50abb2f464ca0229a.json","target-NightlyBuild-Debug-afccd0465e4b8c1e2d87.json","target-NightlyConfigure-Debug-7ec533b122c4c2965696.json","target-NightlyCoverage-Debug-e2b20065ab4aa5f75d86.json","target-NightlyMemCheck-Debug-8eda9eba68978ec4ed5b.json","target-NightlyMemoryCheck-Debug-784f4a2876bbb9b4bcea.json","target-NightlyStart-Debug-87062bf9eaacc239a2bf.json","target-NightlySubmit-Debug-00614dd8d283eaa542b9.json","target-NightlyTest-Debug-b8d330abdb63439bfe9e.json","target-NightlyUpdate-Debug-b681408b94dc782d2255.json","target-ass1-Debug-145b6348f86f83e35603.json"]
 2020-11-05T09:13:35.702Z [debug] [driver] Run _refreshExpansions
 2020-11-05T09:13:35.703Z [debug] [driver] Run _refreshExpansions cb
 2020-11-05T09:13:35.756Z [info] [build] Build finished with exit code 0

@@ -23,3 +23,5 @@
 [2020-11-05 17:11:23.901] [remoteagent] [info] Renamed to /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.1.0-insiders4
 [2020-11-05 17:11:23.908] [remoteagent] [info] Installation completed. ms-vscode.cpptools
 [2020-11-05 17:11:23.930] [remoteagent] [info] Successfully installed the extension: ms-vscode.cpptools
+[2020-11-05 19:03:29.906] [remoteagent] [info] [::ffff:127.0.0.1][5d35b361][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-11-05 19:03:30.994] [remoteagent] [info] [::ffff:127.0.0.1][9b5a73a7][ExtensionHostConnection] <9317> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,8 @@
+[variant] Loaded new set of variants
+[kit] Successfully loaded 4 kits from /home/moria/.local/share/CMakeTools/cmake-tools-kits.json
+[main] Configuring folder: moria 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/bin/gcc-9 -DCMAKE_CXX_COMPILER:FILEPATH=/bin/g++-9 -H/home/moria -B/home/moria/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: /home/moria/build
