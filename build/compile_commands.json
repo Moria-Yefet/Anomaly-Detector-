@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/moria/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/ass1.dir/MainTrain.cpp.o -c /home/moria/MainTrain.cpp",
+  "file": "/home/moria/MainTrain.cpp"
+},
+{
+  "directory": "/home/moria/build",
+  "command": "/bin/g++-9    -g   -o CMakeFiles/ass1.dir/anomaly_detection_util.cpp.o -c /home/moria/anomaly_detection_util.cpp",
+  "file": "/home/moria/anomaly_detection_util.cpp"
+}
+]

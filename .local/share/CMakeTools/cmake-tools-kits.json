@@ -1,0 +1,28 @@
+[
+  {
+    "name": "GCC 9.3.0",
+    "compilers": {
+      "C": "/bin/gcc-9",
+      "CXX": "/bin/g++-9"
+    }
+  },
+  {
+    "name": "GCC for c89 9.3.0",
+    "compilers": {
+      "C": "/bin/c89-gcc"
+    }
+  },
+  {
+    "name": "GCC for c99 9.3.0",
+    "compilers": {
+      "C": "/bin/c99-gcc"
+    }
+  },
+  {
+    "name": "GCC for x86_64-linux-gnu 9.3.0",
+    "compilers": {
+      "C": "/bin/x86_64-linux-gnu-gcc-9",
+      "CXX": "/bin/x86_64-linux-gnu-g++-9"
+    }
+  }
+]

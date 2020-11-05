@@ -1,0 +1,23 @@
+[2020-11-05 08:41:02.277] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-11-05 08:41:02.277] [remoteagent] [info] Extension host agent started.
+[2020-11-05 08:41:02.636] [remoteagent] [info] [::ffff:127.0.0.1][2fd3dcfc][ManagementConnection] New connection established.
+[2020-11-05 08:41:02.643] [remoteagent] [info] [::ffff:127.0.0.1][26f8d41c][ExtensionHostConnection] New connection established.
+[2020-11-05 08:41:02.737] [remoteagent] [info] Deleted from disk ms-vscode.cpptools /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.0.1
+[2020-11-05 08:41:03.209] [remoteagent] [info] [::ffff:127.0.0.1][26f8d41c][ExtensionHostConnection] <398> Launched Extension Host Process.
+[2020-11-05 10:04:31.336] [remoteagent] [info] Installing extension: ms-vscode.cmake-tools
+[2020-11-05 10:04:31.352] [remoteagent] [info] Downloaded extension: ms-vscode.cmake-tools undefined
+[2020-11-05 10:04:36.906] [remoteagent] [info] Extracted extension to /home/moria/.vscode-server/extensions/.ms-vscode.cmake-tools-1.4.2: ms-vscode.cmake-tools
+[2020-11-05 10:04:37.020] [remoteagent] [info] Renamed to /home/moria/.vscode-server/extensions/ms-vscode.cmake-tools-1.4.2
+[2020-11-05 10:04:37.027] [remoteagent] [info] Installation completed. ms-vscode.cmake-tools
+[2020-11-05 10:04:37.038] [remoteagent] [info] Extensions installed successfully: ms-vscode.cmake-tools
+[2020-11-05 12:35:24.744] [remoteagent] [info] [::ffff:127.0.0.1][2fd3dcfc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-11-05 12:35:25.978] [remoteagent] [info] [::ffff:127.0.0.1][26f8d41c][ExtensionHostConnection] <398> Extension Host Process exited with code: 0, signal: null.

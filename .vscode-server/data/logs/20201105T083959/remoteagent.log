@@ -1,0 +1,62 @@
+[2020-11-05 08:40:00.214] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-11-05 08:40:00.214] [remoteagent] [info] Extension host agent started.
+[2020-11-05 08:40:00.393] [remoteagent] [info] ms-vsliveshare.vsliveshare 1.0.3046 Running post uninstall script
+[2020-11-05 08:40:00.437] [remoteagent] [info] [::ffff:127.0.0.1][f1aad3b2][ManagementConnection] New connection established.
+[2020-11-05 08:40:00.441] [remoteagent] [info] [::ffff:127.0.0.1][94ab84e2][ExtensionHostConnection] New connection established.
+[2020-11-05 08:40:00.679] [remoteagent] [error] ms-vsliveshare.vsliveshare 1.0.3046 post-uninstall internal/modules/cjs/loader.js:796
+    throw err;
+    ^
+
+Error: Cannot find module '@vs/vscode-command-framework'
+Require stack:
+- /home/moria/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.3046/out/prod/uninstall.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:793:17)
+    at Function.Module._load (internal/modules/cjs/loader.js:686:27)
+    at Module.require (internal/modules/cjs/loader.js:848:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/home/moria/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.3046/out/prod/uninstall.js:4:36)
+    at Module._compile (internal/modules/cjs/loader.js:955:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:991:10)
+    at Module.load (internal/modules/cjs/loader.js:811:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:723:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1043:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/moria/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.3046/out/prod/uninstall.js'
+  ]
+}
+
+[2020-11-05 08:40:00.682] [remoteagent] [error] ms-vsliveshare.vsliveshare 1.0.3046 Failed to run post uninstall script: post-uninstall process exited with code 1
+[2020-11-05 08:40:00.870] [remoteagent] [info] [::ffff:127.0.0.1][94ab84e2][ExtensionHostConnection] <165> Launched Extension Host Process.
+[2020-11-05 08:40:01.511] [remoteagent] [info] Deleted from disk ms-vscode.cpptools-extension-pack /home/moria/.vscode-server/extensions/ms-vscode.cpptools-extension-pack-1.0.0
+[2020-11-05 08:40:06.447] [remoteagent] [info] Deleted from disk ms-vscode-remote.remote-ssh-edit /home/moria/.vscode-server/extensions/ms-vscode-remote.remote-ssh-edit-0.55.0
+[2020-11-05 08:40:09.029] [remoteagent] [info] Deleted from disk ms-vscode.cpptools-themes /home/moria/.vscode-server/extensions/ms-vscode.cpptools-themes-1.0.0
+[2020-11-05 08:40:11.851] [remoteagent] [info] Deleted from disk ms-vscode-remote.remote-wsl /home/moria/.vscode-server/extensions/ms-vscode-remote.remote-wsl-0.50.1
+[2020-11-05 08:40:14.595] [remoteagent] [info] Deleted from disk github.vscode-pull-request-github /home/moria/.vscode-server/extensions/github.vscode-pull-request-github-0.20.1
+[2020-11-05 08:40:14.865] [remoteagent] [info] Deleted from disk ms-vscode-remote.remote-ssh /home/moria/.vscode-server/extensions/ms-vscode-remote.remote-ssh-0.55.0
+[2020-11-05 08:40:15.039] [remoteagent] [info] Deleted from disk jeff-hykin.better-cpp-syntax /home/moria/.vscode-server/extensions/jeff-hykin.better-cpp-syntax-1.15.0
+[2020-11-05 08:40:16.204] [remoteagent] [info] Deleted from disk ms-vscode.cpptools /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.1.0-insiders2
+[2020-11-05 08:40:16.205] [remoteagent] [info] Deleted from disk ms-vscode.cpptools /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.1.0-insiders3
+[2020-11-05 08:40:17.057] [remoteagent] [info] Deleted from disk cschlosser.doxdocgen /home/moria/.vscode-server/extensions/cschlosser.doxdocgen-1.1.0
+[2020-11-05 08:40:17.064] [remoteagent] [info] Deleted from disk ms-vsliveshare.vsliveshare-audio /home/moria/.vscode-server/extensions/ms-vsliveshare.vsliveshare-audio-0.1.91
+[2020-11-05 08:40:17.065] [remoteagent] [info] Deleted from disk ms-vscode.cmake-tools /home/moria/.vscode-server/extensions/ms-vscode.cmake-tools-1.4.2
+[2020-11-05 08:40:17.216] [remoteagent] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/moria/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.3046
+[2020-11-05 08:40:17.231] [remoteagent] [info] Deleted from disk twxs.cmake /home/moria/.vscode-server/extensions/twxs.cmake-0.0.17
+[2020-11-05 08:40:17.237] [remoteagent] [info] Deleted from disk ms-vscode-remote.remote-containers /home/moria/.vscode-server/extensions/ms-vscode-remote.remote-containers-0.145.1
+[2020-11-05 08:40:17.238] [remoteagent] [info] Deleted from disk ms-vsonline.vsonline /home/moria/.vscode-server/extensions/ms-vsonline.vsonline-1.0.3073
+[2020-11-05 08:40:41.929] [remoteagent] [info] Installing the extension: ms-vscode.cpptools
+[2020-11-05 08:40:47.335] [remoteagent] [info] Extracted extension to /home/moria/.vscode-server/extensions/.ms-vscode.cpptools-1.1.0-insiders4: ms-vscode.cpptools
+[2020-11-05 08:40:47.399] [remoteagent] [info] Renamed to /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.1.0-insiders4
+[2020-11-05 08:40:47.421] [remoteagent] [info] Installation completed. ms-vscode.cpptools
+[2020-11-05 08:40:47.454] [remoteagent] [info] Successfully installed the extension: ms-vscode.cpptools
+[2020-11-05 08:40:53.859] [remoteagent] [info] [::ffff:127.0.0.1][f1aad3b2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-11-05 08:40:54.978] [remoteagent] [info] [::ffff:127.0.0.1][94ab84e2][ExtensionHostConnection] <165> Extension Host Process exited with code: 0, signal: null.

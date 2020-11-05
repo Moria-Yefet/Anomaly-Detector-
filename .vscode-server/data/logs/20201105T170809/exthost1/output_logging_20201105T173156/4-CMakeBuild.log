@@ -1,0 +1,42 @@
+[variant] Loaded new set of variants
+[kit] Successfully loaded 4 kits from /home/moria/.local/share/CMakeTools/cmake-tools-kits.json
+[main] Configuring folder: moria 
+[main] Configuring folder: moria 
+[main] Configuring folder: moria 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/bin/gcc-9 -DCMAKE_CXX_COMPILER:FILEPATH=/bin/g++-9 -H/home/moria -B/home/moria/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 9.3.0
+[cmake] -- The CXX compiler identification is GNU 9.3.0
+[cmake] -- Check for working C compiler: /bin/gcc-9
+[cmake] -- Check for working C compiler: /bin/gcc-9 -- works
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Check for working CXX compiler: /bin/g++-9
+[cmake] -- Check for working CXX compiler: /bin/g++-9 -- works
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: /home/moria/build
+[main] Building folder: moria 
+[main] Configuring folder: moria 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/moria/build --config Debug --target all -- -j 10
+[build] -- Configuring done
+[build] -- Generating done
+[build] -- Build files have been written to: /home/moria/build
+[build] Scanning dependencies of target ass1
+[build] [ 33%] Building CXX object CMakeFiles/ass1.dir/MainTrain.cpp.o
+[build] [ 66%] Building CXX object CMakeFiles/ass1.dir/anomaly_detection_util.cpp.o
+[build] [100%] Linking CXX executable ass1
+[build] [100%] Built target ass1
+[build] Build finished with exit code 0
+[main] Building folder: moria 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/moria/build --config Debug --target all -- -j 10
+[build] [100%] Built target ass1
+[build] Build finished with exit code 0

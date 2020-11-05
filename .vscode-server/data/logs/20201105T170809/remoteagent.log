@@ -1,0 +1,25 @@
+[2020-11-05 17:08:09.909] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-11-05 17:08:09.909] [remoteagent] [info] Extension host agent started.
+[2020-11-05 17:08:10.093] [remoteagent] [info] [::ffff:127.0.0.1][5d35b361][ManagementConnection] New connection established.
+[2020-11-05 17:08:10.097] [remoteagent] [info] [::ffff:127.0.0.1][9b5a73a7][ExtensionHostConnection] New connection established.
+[2020-11-05 17:08:10.567] [remoteagent] [info] [::ffff:127.0.0.1][9b5a73a7][ExtensionHostConnection] <9317> Launched Extension Host Process.
+[2020-11-05 17:10:53.489] [remoteagent] [info] Installing extension: ms-vscode.cpptools
+[2020-11-05 17:10:53.525] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools undefined
+[2020-11-05 17:10:54.361] [remoteagent] [info] Extracted extension to /home/moria/.vscode-server/extensions/.ms-vscode.cpptools-1.0.1: ms-vscode.cpptools
+[2020-11-05 17:10:54.383] [remoteagent] [info] Renamed to /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.0.1
+[2020-11-05 17:10:54.392] [remoteagent] [info] Installation completed. ms-vscode.cpptools
+[2020-11-05 17:10:54.402] [remoteagent] [info] Extensions installed successfully: ms-vscode.cpptools
+[2020-11-05 17:11:20.892] [remoteagent] [info] Installing the extension: ms-vscode.cpptools
+[2020-11-05 17:11:23.873] [remoteagent] [info] Extracted extension to /home/moria/.vscode-server/extensions/.ms-vscode.cpptools-1.1.0-insiders4: ms-vscode.cpptools
+[2020-11-05 17:11:23.901] [remoteagent] [info] Renamed to /home/moria/.vscode-server/extensions/ms-vscode.cpptools-1.1.0-insiders4
+[2020-11-05 17:11:23.908] [remoteagent] [info] Installation completed. ms-vscode.cpptools
+[2020-11-05 17:11:23.930] [remoteagent] [info] Successfully installed the extension: ms-vscode.cpptools
